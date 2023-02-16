@@ -2,27 +2,23 @@
 {% load static %}
 {% block 'content' %}
 <main>
-
     <div class="slider-area">
         <div class="slider-item-active">
             <div class="slider-item">
                 <div class="slider-bg1 slider-height hero-overly slider-bg1 d-flex align-items-center ">
                     <div class="container">
-
                         <div class="slide-content">
                             <p>Рассохина Наталия </p>
                             <h1>Психолог из Майами</h1>
                             <h4>Со мной ты становишься увереннее,<br> начинаешь слышать себя и идти в направление своих
                                 ценностей.<br> Появляется желания жить , делать, созидать .</h4>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Start slider -->
-    <!--? Gallery Area Start -->
+
     <div class="gallery-area section-padding40">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -66,13 +62,65 @@
         </div>
     </div>
 
-     <section class="pricing-card-area">
+    <section class="pricing-card-area">
         <div class="container">
-            <!-- Section Tittle -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="section-tittle mb-60 text-center">
-                        <h2>Стоимость за одну онлайн консультацию</h2>
+                        <h2 class="fs-4rem">С чем могу Вам помочь</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="FAQ" style="">
+                <a href="#hide3" class="hide" id="hide3">Подробнее</a>
+                <a href="#show3" class="show" id="show3">Скрыть</a>
+                <div class="question"></div>
+                <div class="row list" style="margin-bottom: 5%;">
+                    <div class="col-lg-12">
+                        <ul>
+                            <li>&emsp;Бизнес запросы. Масштабирование. Выйти на новый финансовый уровень.
+                                Зарабатывать своим делом большие деньги комфортным для вас способом.
+                            </li>
+
+                            <li>&emsp;Справиться выйти из кризисной ситуации.
+                                Выход из кризисного /тревожного / депрессивного состояния.
+                            </li>
+
+                            <li>&emsp;Укрепление внутренних опор. Страх выделяться  и быть видимым для других.
+                                Поиск себя и своего предназначения.
+                            </li>
+
+                            <li>&emsp;Понимания своих истинных ценностей / желаний.
+                                С запросом "не знаю, что и чего хочу".
+                            </li>
+
+                            <li>&emsp;Жить для себя. Где взять силы и ресурсы.
+                            </li>
+
+                            <li>&emsp;Чтобы не мешали страх, стыд, обида жить полноценно.
+                            </li>
+
+                            <li>&emsp;Адаптация в новой стране. Сложности в эмиграции. Адаптироваться к изменениям.
+                            </li>
+
+                            <li>&emsp;Проблемы, сложности в отношениях. Не получается пережить расставание / развод.
+                            </li><hr>
+                        </ul>
+                    </div>
+                    <p class="col-lg-12" style="text-align: center;">
+                        Так же у вас может не быть четкого сформулированного запроса, но есть желание в поиске ясности.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="pricing-card-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-tittle mb-60 text-center">
+                        <h2 class="fs-4rem">Стоимость за одну онлайн консультацию</h2>
                     </div>
                 </div>
             </div>
@@ -84,7 +132,6 @@
                 <div class="col-xl-3 single-cons">
                     <div class="single-card text-center mb-30">
                         <div class="card-top">
-                            <img src="{% static 'img/icon/camera.svg" alt="">
                             <h4>1 консультация </h4>
                             <p> (продолжительность 1 час)</p>
                         </div>
@@ -100,11 +147,10 @@
 
     <section class="pricing-card-area">
         <div class="container">
-            <!-- Section Tittle -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="section-tittle mb-60 text-center">
-                        <h2>Коуч пакеты</h2>
+                        <h2 class="fs-4rem">Коуч пакеты</h2>
                     </div>
                 </div>
             </div>
@@ -112,7 +158,6 @@
                 <a href="#hide2" class="hide" id="hide2">Показать цены</a>
                 <a href="#show2" class="show" id="show2">Скрыть цены</a>
             <div class="question"></div>
-
                 <div class="row list">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10">
                         <div class="single-card text-center mb-30">
@@ -163,15 +208,13 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
 
     <section class="contact-section">
         <div class="container">
-    <div class="row">
+            <div class="row">
                 <div class="col-12">
                     <h2 class="contact-title">Свяжитесь со мной</h2>
                 </div>
@@ -208,35 +251,27 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3><a href="tel:+19543801649">+19543801649</a></h3>
+                            <h3><a href="tel:+19543801649" target="_blank">+1 954-380-1649</a></h3>
                             <p>Свяжитесь со мной в любом удобном для вас мессенджер Viber/WhatsApp/SMS</p>
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-instagram"></i></span>
                         <div class="media-body">
-                            <h3><a href="https://instagram.com/psycholog_time">Instagram</a></h3>
+                            <h3><a href="https://instagram.com/psycholog_time" target="_blank">Instagram</a></h3>
                             <p>Напишите в Direct</p>
                         </div>
                     </div>
-
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-comments"></i></span>
                         <div class="media-body">
-                            <h3><a href="https://t.me/psycholog_time">Telegram</a></h3>
+                            <h3><a href="https://t.me/psycholog_time" target="_blank">Telegram</a></h3>
                             <p>Присоединяйтесь к группе!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-
+        </div>
     </section>
-
-
-
-
-
-
 </main>
 {% endblock %}

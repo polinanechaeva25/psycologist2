@@ -348,7 +348,7 @@ ul {
 
 /* line 118, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
 li {
-  list-style: none;
+    list-style: circle;
 }
 
 /* line 122, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
@@ -3679,12 +3679,12 @@ nav.nav-menu-show {
   background-position: top center;
   background-color: #c8ab80b8;
 }
-@media (min-width: 600px) and (max-width: 2000px){
+@media (min-width: 1024px) and (max-width: 2000px){
     .slider-bg1{
       background-size: contain;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 1024px){
     .slider-bg1{
       background-size: cover;
     }
@@ -4974,7 +4974,7 @@ nav.nav-menu-show {
 
 /* line 51, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p {
-  color: #646D77;
+  color: #463d3038;
   font-weight: 300;
   font-size: 14px;
   line-height: 2;
@@ -4993,7 +4993,7 @@ nav.nav-menu-show {
 
 /* line 73, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
 .footer-social a {
-  background: rgb(66 62 38 / 55%);
+  background: #463d304f;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -5003,7 +5003,7 @@ nav.nav-menu-show {
   display: inline-block;
   text-align: center;
   margin-right: 8px;
-  border: 1px solid #9DA4AB;
+  border: 1px solid #463d30;
 }
 
 /* line 85, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_footer.scss */
@@ -8436,21 +8436,35 @@ del {
 
 /*style the (+) and (-) */
 .hide, .show {
-    width: 90%;
-    height: 40px;
+    width: 60%;
+    height: 50px;
     border-radius: 30px;
     font-size: 20px;
     color: #fff;
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: center;
     text-decoration: none;
     box-shadow: 1px 1px 2px #000;
     background: #cccbbb;
     opacity: .95;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
     float: left;
     margin-bottom: 25px;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .hide, .show {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 768px){
+    .hide, .show {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
 
 .hide:hover, .show:hover {
@@ -8475,3 +8489,7 @@ del {
     margin-bottom: 25px;
     text-align: center;
 }
+@media (min-width: 768px){
+.fs-4rem{
+    font-size: 4rem;
+}}
