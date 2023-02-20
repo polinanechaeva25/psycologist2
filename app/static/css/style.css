@@ -8526,3 +8526,8 @@ del {
     font-weight: 600 !important;
     font-size: 17px;
 }
+
+@media (max-width: 768px){
+    .b-768{
+        margin-bottom: 20% !important;
+    }}
