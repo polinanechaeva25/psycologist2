@@ -8531,3 +8531,8 @@ del {
     .b-768{
         margin-bottom: 20% !important;
     }}
+
+.pickgradient {
+
+  background-image: -webkit-linear-gradient(top, rgb(193 181 135 / 42%), rgb(255 255 255 / 55%));
+}
